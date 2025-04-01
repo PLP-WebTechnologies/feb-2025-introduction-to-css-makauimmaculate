@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading Styles */
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* Style the form */
+/* Form Container */
+form {
+    width: 50%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Form Headings */
+#registration-header {
+    color: #e74c3c;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Input and Select Styling */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Radio and Checkbox Styling */
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Button Styling */
+button {
+    background-color: #27ae60;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+}
+/* Style the image */
+img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #34495e;
+    border-radius: 8px;
+    width: 500px;
+}
+
+/* Class Selector Example */
+.center-text {
+    text-align: center;
+}
+
+/* ID Selector Example */
+#registration-header {
+    color: #e74c3c;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
